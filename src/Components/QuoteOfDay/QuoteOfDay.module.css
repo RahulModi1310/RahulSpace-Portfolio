@@ -1,0 +1,21 @@
+.quote_block {
+  background-color: var(--backdrop-color);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  text-align: center;
+}
+
+.quote_title {
+  margin: 0px;
+  font-size: 1.25rem;
+}
+
+.quote_para {
+  font-size: 1.125rem;
+  font-weight: 300;
+  font-family: monospace;
+  color: var(--secondary-color-yellow);
+}

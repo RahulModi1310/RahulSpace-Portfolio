@@ -1,0 +1,35 @@
+.blogs_heading {
+  color: var(--secondary-color-pink);
+}
+
+.blog_list {
+  min-width: 100%;
+  margin: auto;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min(100%, max(30%, 300px)));
+  justify-content: center;
+  column-gap: 2%;
+  row-gap: 1rem;
+}
+
+.blog_card {
+  background-color: var(--backdrop-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  row-gap: 1rem;
+  font-weight: 300;
+}
+
+.blog_image {
+  max-width: 100%;
+  background-color: var(--secondary-color-major);
+}
+
+.blog_title {
+  font-size: 1.25rem;
+  font-weight: 500;
+}

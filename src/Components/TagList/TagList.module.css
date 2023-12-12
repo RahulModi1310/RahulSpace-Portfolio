@@ -1,0 +1,20 @@
+.tag_list {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 0.25rem;
+  column-gap: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.tag_list > li {
+  min-width: 2rem;
+  text-align: center;
+  background-color: var(--secondary-color-green);
+  color: var(--primary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+}
