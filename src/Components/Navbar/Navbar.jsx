@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../../assets/Logo.png";
 
 import styles from "./Navbar.module.css";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   return (
@@ -23,6 +24,7 @@ const Navbar = () => {
               <a href="#Blogs">Blogs</a>
             </li>
           </ul>
+          <ThemeToggle />
         </div>
       </nav>
     </>

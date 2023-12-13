@@ -3,7 +3,7 @@
   scroll-behavior: smooth;
 }
 
-:root {
+.theme-dark {
   --primary-color: #0f172a;
   --secondary-color-major: #f3f4f6;
   --secondary-color-blue: #22d3ee;
@@ -12,13 +12,31 @@
   --secondary-color-yellow: #facc15;
   --backdrop-color: #ffe4c421;
   /* --backdrop-color: #20202021; */
+}
+
+.theme-light {
+  --primary-color: #efeded;
+  --secondary-color-major: #0f172a;
+  --secondary-color-blue: #178a9b;
+  --secondary-color-pink: #8c4397;
+  --secondary-color-green: #1e7e5a;
+  --secondary-color-yellow: #644300;
+  --backdrop-color: #2e2d2d56;
+}
+
+:root {
   --primary-font-1: Inter;
   --primary-font-2: sans-serif;
-
   background-color: var(--primary-color);
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  transition: 0.5s ease;
+}
+
+*::selection {
+  background-color: var(--secondary-color-blue);
+  color: var(--primary-color);
 }
 
 a {
