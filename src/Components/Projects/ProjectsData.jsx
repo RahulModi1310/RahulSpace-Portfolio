@@ -7,7 +7,7 @@ const project_data = [
   {
     id: 1,
     title: "Inventory Management Portal",
-    description: ` Digitalize the Tinkering Lab's inventory management for its extensive asset collection.Led a 10-member team to design user flows, craft 50+ wireframes, and develop a web-app based on MVC model and MERN Stack.Launched a robust portal managing a 30+ million-worth inventory used by30+ Lab members effectively.`,
+    description: ` Digitalize the Tinkering Lab's inventory management for its extensive asset collection. Led a 10-member team to design user flows, craft 50+ wireframes, and develop a web-app based on MVC model and MERN Stack. Launched a robust portal managing a 30+ million-worth inventory used by 30+ Lab members effectively.`,
     tags: ["Nodejs", "Reactjs", "SQL", "Docker"],
     image: project1,
   },
