@@ -1,10 +1,9 @@
 import React from "react";
-import SectionComp from "../SectionComp/SectionComp";
-import secondary_color_list from "../const";
+import SectionComp from "../../HelperComponents/SectionComp/SectionComp";
+import TagList from "../../HelperComponents/TagList/TagList";
 
 import project_data from "./ProjectsData";
 import styles from "./Projects.module.css";
-import TagList from "../TagList/TagList";
 
 const Projects = () => {
   return (

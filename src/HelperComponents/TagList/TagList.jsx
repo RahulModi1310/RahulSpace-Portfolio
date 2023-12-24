@@ -1,5 +1,5 @@
 import React from "react";
-import secondary_color_list from "../const";
+import secondary_color_list from "../../const";
 
 import styles from "./TagList.module.css";
 
