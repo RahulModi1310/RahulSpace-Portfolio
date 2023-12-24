@@ -9,11 +9,11 @@ const ThemeToggle = () => {
   const [theme, setTheme] = useState("dark");
   const themeSettings = {
     dark: {
-      icon: DarkThemeLogo,
+      icon: LightThemeLogo,
       class: "theme-dark",
     },
     light: {
-      icon: LightThemeLogo,
+      icon: DarkThemeLogo,
       class: "theme-light",
     },
   };
