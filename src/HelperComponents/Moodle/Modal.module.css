@@ -1,0 +1,32 @@
+.modal_wrapper {
+  position: relative;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.modal_container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  max-height: 100dvh;
+  max-width: 100dvw;
+  height: 100dvh;
+  width: 100dvw;
+  background-color: var(--primary-color);
+  z-index: 1;
+  padding: 2rem;
+  display: flex;
+}
+
+.close_button {
+  position: absolute;
+  background-color: var(--backdrop-color);
+  padding: 0.5rem;
+  border-radius: 5rem;
+  right: 2rem;
+  top: 2rem;
+}
+
+.close_button:hover {
+  cursor: pointer;
+}

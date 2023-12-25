@@ -1,9 +1,15 @@
 .navbar {
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
+  padding: 0.75rem 0;
+  z-index: 1;
+  position: sticky;
+  background-color: var(--primary-color);
+  top: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  transition: background-color 0.5s ease;
 }
 
 .left_nav_block {

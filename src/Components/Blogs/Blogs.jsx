@@ -1,9 +1,9 @@
 import React from "react";
-import SectionComp from "../SectionComp/SectionComp";
+import SectionComp from "../../HelperComponents/SectionComp/SectionComp";
 
 import blogs_data from "./BlogsData.js";
 import styles from "./Blogs.module.css";
-import TagList from "../TagList/TagList.jsx";
+import TagList from "../../HelperComponents/TagList/TagList.jsx";
 
 const Blogs = () => {
   return (
