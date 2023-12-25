@@ -42,6 +42,35 @@
   text-align: justify;
 }
 
+.modal_component {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.modal_component > button {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--backdrop-color);
+  color: var(--secondary-color-major);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+
+.modal_component > button:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color-major);
+  color: var(--primary-color);
+}
+
 @media (max-width: 725px) {
   .projects_lists {
     margin: auto;
@@ -63,5 +92,9 @@
     align-items: stretch;
     row-gap: 1rem;
     font-weight: 300;
+  }
+
+  .modal_component {
+    max-width: 100%;
   }
 }
