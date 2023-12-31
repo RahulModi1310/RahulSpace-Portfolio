@@ -16,7 +16,11 @@ const ProjectItem = ({ proj }) => (
           <TagList tags={proj.tags} />
           <GalleryView imageList={proj.imageList} />
           <p className={styles.project_description}>{proj.description}</p>
-          <button>Link</button>
+          {proj.link && (
+            <a href={proj.link} target="_blank">
+              <button>More Details</button>
+            </a>
+          )}
         </div>
       }
     >

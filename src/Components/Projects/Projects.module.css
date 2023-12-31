@@ -53,7 +53,12 @@
   text-align: center;
 }
 
-.modal_component > button {
+.modal_component a {
+  margin-top: 1rem;
+  align-self: flex-start;
+}
+
+.modal_component button {
   outline: none;
   border: none;
   padding: 0.5rem 1rem;
@@ -61,11 +66,9 @@
   color: var(--secondary-color-major);
   font-size: 1rem;
   border-radius: 0.5rem;
-  margin-top: 1rem;
-  align-self: flex-start;
 }
 
-.modal_component > button:hover {
+.modal_component button:hover {
   cursor: pointer;
   background-color: var(--secondary-color-major);
   color: var(--primary-color);

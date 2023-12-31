@@ -23,6 +23,15 @@ const Blogs = () => {
               <p className={styles.blog_title}>{blog.title}</p>
               <p className={styles.blog_description}>{blog.description}</p>
               <TagList tags={blog.tags} />
+              {blog.link && (
+                <a
+                  className={styles.blog_link}
+                  href={blog.link}
+                  target="_blank"
+                >
+                  <button>Read More</button>
+                </a>
+              )}
             </div>
           );
         })}

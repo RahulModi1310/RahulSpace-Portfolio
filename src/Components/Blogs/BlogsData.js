@@ -1,49 +1,14 @@
-import comingSoon from "../../assets/Blog_ComingSoon.jpg";
+import blog1 from "../../assets/Blog1_Graph101.png";
 
 const blogs_data = [
   {
     id: 1,
-    title: "Comming Soon",
-    description: "Stay tuned will be uploading blogs.",
-    image: comingSoon,
-    tags: ["Coming Soon"],
+    title: "Graph 101: Comprehensive Topic Wise Questions",
+    description: `This article serves as a curated collection of Topic Wise Questions to kick off each topic. Let's dive in!`,
+    image: blog1,
+    tags: ["Graph", "DP on Graphs", "DSU"],
+    link: "https://leetcode.com/discuss/interview-question/4467590/Graph-101%3A-Comprehensive-Topic-Wise-Questions",
   },
-  // {
-  //   id: 2,
-  //   title: "Blog 2",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime quisquam quidem! Tenetur, ea. Impedit!",
-  //   date: "02-02-2024",
-  //   image: Logo,
-  //   tags: ["Software", "ML"],
-  // },
-  // {
-  //   id: 3,
-  //   title: "Blog 3",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime quisquam quidem! Tenetur, ea. Impedit!",
-  //   date: "03-02-2024",
-  //   image: Logo,
-  //   tags: ["Software", "ML"],
-  // },
-  // {
-  //   id: 4,
-  //   title: "Blog 4",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime quisquam quidem! Tenetur, ea. Impedit!",
-  //   date: "03-02-2024",
-  //   image: Logo,
-  //   tags: ["Software", "ML"],
-  // },
-  // {
-  //   id: 5,
-  //   title: "Blog 5",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla maxime quisquam quidem! Tenetur, ea. Impedit!",
-  //   date: "03-02-2024",
-  //   image: Logo,
-  //   tags: ["Software", "ML"],
-  // },
 ];
 
 export default blogs_data;

@@ -39,6 +39,7 @@ const project_data = [
     tags: ["Nodejs", "Reactjs", "SQL", "Docker"],
     image: project1,
     imageList: [inventory1, inventory2, inventory3, inventory4, inventory5],
+    link: "https://drive.google.com/file/d/1Ud9F1De_xaknSYXGUc6fMjgP5pRULt1B/view?usp=drive_link",
   },
   {
     id: 2,
@@ -60,6 +61,7 @@ const project_data = [
       forecasting5,
       forecasting6,
     ],
+    link: "https://drive.google.com/file/d/1836eb0EcDaHpnHZd4XgiBDtU8X6-vUzn/view?usp=drive_link",
   },
   {
     id: 3,
@@ -74,6 +76,7 @@ const project_data = [
       movie_recommendation4,
       movie_recommendation5,
     ],
+    link: "https://drive.google.com/file/d/1IlJtrjR_NX0fPWyCgGXAr_zoix2wqA3n/view?usp=drive_link",
   },
   {
     id: 4,
