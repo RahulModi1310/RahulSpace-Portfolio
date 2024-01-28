@@ -1,6 +1,15 @@
 import blog1 from "../../assets/Blog1_Graph101.png";
+import blog2 from "../../assets/Blog2_DigitDP.png";
 
 const blogs_data = [
+  {
+    id: 2,
+    title: "Mastering Digit DP",
+    description: `Learn the concept of Digit DP with best curated resources and practice problems.`,
+    image: blog2,
+    tags: ["Digit DP", "Dynamic Programming", "Leetcode Problems"],
+    link: "https://leetcode.com/discuss/interview-question/4637245/Mastering-Digit-DP",
+  },
   {
     id: 1,
     title: "Graph 101: Comprehensive Topic Wise Questions",
