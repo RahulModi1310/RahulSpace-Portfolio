@@ -18,13 +18,6 @@ const IntroSection = () => {
             Hello There, I'm <span>Rahul Modi 👋</span>
           </h1>
           <p className={styles.intro_content}>{intro_content}</p>
-          <div className={styles.intro_social_media}>
-            <SocialMediaCards
-              title="Online Coding Platforms"
-              data={codingPlatform}
-            />
-            <SocialMediaCards title="Social Media" data={socialMedia} />
-          </div>
         </div>
 
         {/* right Intro Block */}

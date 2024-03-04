@@ -6,6 +6,7 @@ import Projects from "./Components/Projects/Projects";
 import Blogs from "./Components/Blogs/Blogs";
 
 import "./App.css";
+import CPStatusCard from "./Components/CPStatusCard/CPStatusCard";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <QuoteOfDay />
       <IntroSection />
+      <CPStatusCard />
       <Projects />
       <Blogs />
     </>
