@@ -6,7 +6,7 @@ import SectionComp from "../../HelperComponents/SectionComp/SectionComp";
 const CPStatusCard = () => {
   return (
     <SectionComp
-      id="Blogs"
+      id="CP"
       title={
         <span className={styles.cp_heading}>Competitive Programming {` `}</span>
       }

@@ -11,7 +11,7 @@ import SocialMediaCards from "./SocialMediaCards";
 const IntroSection = () => {
   return (
     <>
-      <div className={styles.intro_section}>
+      <div id="About" className={styles.intro_section}>
         {/* Left Intro Block */}
         <div className={styles.left_intro_block}>
           <h1 className={styles.intro_heading}>
