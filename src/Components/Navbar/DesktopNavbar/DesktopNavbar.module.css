@@ -1,5 +1,5 @@
 .navbar {
-  margin: 0.5rem 0;
+  /* margin: 0.5rem 0; */
   padding: 0.75rem 0;
   z-index: 1;
   position: sticky;
@@ -50,4 +50,10 @@
 
 .right_nav_block a:hover {
   color: var(--secondary-color-pink);
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
 }
