@@ -2,11 +2,8 @@
   background-color: transparent;
   outline: none;
   border: none;
-  /* max-width: 100%; */
-}
-
-.toggleButton:hover {
   cursor: pointer;
+  /* max-width: 100%; */
 }
 
 .toggleButton > img {
