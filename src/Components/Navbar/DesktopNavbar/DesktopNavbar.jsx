@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../../assets/Logo.png";
 
-import styles from "./DesktopNavBar.module.css";
+import styles from "./DesktopNavbar.module.css";
 import ThemeToggle from "../ThemeToggle";
 
 const DesktopNavbar = () => {
