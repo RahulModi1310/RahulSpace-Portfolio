@@ -33,14 +33,13 @@ export default IntroSection;
 
 var intro_content = (
   <>
-    An aspiring <span>software developer</span>, who is committed to building a
-    career in the tech industry. My passion for coding and problem-solving
-    drives me to continuously learn and grow as a developer. I am proficient in
-    various programming languages, including
-    <span> C++, Python, and JavaScript</span>, and have experience working with
-    databases, APIs, and web development frameworks. I am a dedicated team
-    player, always seeking to collaborate and contribute to a positive and
-    productive work environment.
+    Hey, I'm Rahul Modi, a <span>software engineer</span> who loves building cool tech — be it
+    multithreaded systems or APIs that just work. With a BTech from IIT Roorkee
+    and experience at <span>Flipkart and Microsoft IDC</span>, I’ve sharpened my coding 
+    skills and knack for problem-solving. I love solving complex technical problems 
+    and learning new technologies to push boundaries. When I'm not coding, you’ll 
+    find me doodling 🎨, catching up on movies 🎬, or diving into a great book 📚. 
+    <span><a href="https://www.linkedin.com/in/rahulketanmodi/">Let's connect and collaborate!</a></span>
   </>
 );
 
