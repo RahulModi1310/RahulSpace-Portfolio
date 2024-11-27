@@ -18,6 +18,9 @@ const IntroSection = () => {
             Hello There, I'm <span>Rahul Modi 👋</span>
           </h1>
           <p className={styles.intro_content}>{intro_content}</p>
+          <p className={styles.intro_content}>
+            <a href="https://www.linkedin.com/in/rahulketanmodi/" className={styles.lets_connect_url}>Let's connect and collaborate!</a>
+          </p>
         </div>
 
         {/* right Intro Block */}
@@ -33,13 +36,12 @@ export default IntroSection;
 
 var intro_content = (
   <>
-    Hey, I'm Rahul Modi, a <span>software engineer</span> who loves building cool tech — be it
+    A <span>software engineer</span> who loves building cool tech — be it
     multithreaded systems or APIs that just work. With a BTech from IIT Roorkee
     and experience at <span>Flipkart and Microsoft IDC</span>, I’ve sharpened my coding 
     skills and knack for problem-solving. I love solving complex technical problems 
     and learning new technologies to push boundaries. When I'm not coding, you’ll 
-    find me doodling 🎨, catching up on movies 🎬, or diving into a great book 📚. 
-    <span><a href="https://www.linkedin.com/in/rahulketanmodi/">Let's connect and collaborate!</a></span>
+    find me doodling 🎨, catching up on movies 🎬, or diving into a great book 📚.
   </>
 );
 

@@ -33,10 +33,21 @@
   line-height: 1.5rem;
   font-weight: 300;
   text-align: justify;
+  margin-top: 1rem;
 }
 
 .intro_content > span {
   color: var(--secondary-color-pink);
+}
+
+.lets_connect_url{
+  min-width: 2rem;
+  text-align: center;
+  background-color: var(--secondary-color-green);
+  color: var(--primary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
 }
 
 .intro_social_media {
