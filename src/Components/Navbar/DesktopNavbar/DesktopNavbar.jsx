@@ -21,6 +21,9 @@ const DesktopNavbar = () => {
         <div className={styles.right_nav_block}>
           <ul>
             <li>
+              <a href="https://drive.google.com/drive/folders/1HsHqUtDeUYPvoh-mxkJ3WqMNJPm6aM3i" target="_blank">Resume</a>
+            </li>
+            <li>
               <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>

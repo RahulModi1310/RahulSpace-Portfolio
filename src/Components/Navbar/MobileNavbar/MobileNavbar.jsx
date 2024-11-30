@@ -28,9 +28,8 @@ const MobileNavbar = () => {
       </NavLink>
 
       <ul
-        className={`${styles.navbar__navMenu} ${
-          isHamburgerOpen ? "" : styles.notActive
-        }`}
+        className={`${styles.navbar__navMenu} ${isHamburgerOpen ? "" : styles.notActive
+          }`}
       >
         <li>
           <NavLink onClick={LinkHandler} to="/">Home</NavLink>
@@ -40,6 +39,9 @@ const MobileNavbar = () => {
         </li>
         <li>
           <NavLink onClick={LinkHandler} to="/blogs">Blogs</NavLink>
+        </li>
+        <li>
+          <a href="https://drive.google.com/drive/folders/1HsHqUtDeUYPvoh-mxkJ3WqMNJPm6aM3i" target="_blank">Resume</a>
         </li>
       </ul>
       <div className={styles.nav__buttons}>
