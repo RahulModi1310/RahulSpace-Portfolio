@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import closeButton from "../../assets/cross_button.png";
 
 import styles from "./Modal.module.css";
-import GalleryView from "../GalleryView/GalleryView";
 
 const Modal = (props) => {
   const [modalState, setModalState] = useState(false);

@@ -3,6 +3,7 @@ import Hamburger from "./Hamburger";
 import styles from "./MobileNavbar.module.css";
 import Logo from "../../../assets/Logo.png";
 import ThemeToggle from "../ThemeToggle";
+import { NavLink } from "react-router-dom";
 
 const MobileNavbar = () => {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
@@ -19,37 +20,28 @@ const MobileNavbar = () => {
 
   return (
     <nav className={styles.navbar__nav}>
-      <div onClick={LinkHandler} className={styles.navbar__logo}>
+      <NavLink to="/" onClick={LinkHandler} className={styles.navbar__logo}>
         <img src={Logo} alt="" />
         <span>
-          <a href="#About">Rahul's Space</a>
+          Rahul's Space
         </span>
-      </div>
+      </NavLink>
 
       <ul
-        className={`${styles.navbar__navMenu} ${
-          isHamburgerOpen ? "" : styles.notActive
-        }`}
+        className={`${styles.navbar__navMenu} ${isHamburgerOpen ? "" : styles.notActive
+          }`}
       >
         <li>
-          <a onClick={LinkHandler} href="#About">
-            About
-          </a>
+          <NavLink onClick={LinkHandler} to="/">Home</NavLink>
         </li>
         <li>
-          <a onClick={LinkHandler} href="#CP">
-            Competitive Programming
-          </a>
+          <NavLink onClick={LinkHandler} to="/projects">Projects</NavLink>
         </li>
         <li>
-          <a onClick={LinkHandler} href="#Projects">
-            Projects
-          </a>
+          <NavLink onClick={LinkHandler} to="/blogs">Blogs</NavLink>
         </li>
         <li>
-          <a onClick={LinkHandler} href="#Blogs">
-            Blogs
-          </a>
+          <a href="https://drive.google.com/drive/folders/1HsHqUtDeUYPvoh-mxkJ3WqMNJPm6aM3i" target="_blank">Resume</a>
         </li>
       </ul>
       <div className={styles.nav__buttons}>
