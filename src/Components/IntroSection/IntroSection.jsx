@@ -1,12 +1,11 @@
 import React from "react";
 
 import styles from "./IntroSection.module.css";
-import intro_illustration from "../../assets/Intro_Section_Illustration.png";
+import intro_illustration from "../../assets/Intro_illustrationv2.png";
 import codeforcesLogo from "../../assets/CodeforcesLogo.png";
 import leetCodeLogo from "../../assets/LeetCodeLogo.png";
 import instagramLogo from "../../assets/InstagramLogo.png";
 import EmailLogo from "../../assets/EmailLogo.png";
-import SocialMediaCards from "./SocialMediaCards";
 
 const IntroSection = () => {
   return (
@@ -18,9 +17,10 @@ const IntroSection = () => {
             Hello There, I'm <span>Rahul Modi 👋</span>
           </h1>
           <p className={styles.intro_content}>{intro_content}</p>
-          <p className={styles.intro_content}>
-            <a href="https://www.linkedin.com/in/rahulketanmodi/" className={styles.lets_connect_url}>Let's connect and collaborate!</a>
-          </p>
+          <div className={styles.intro_links}>
+            <a href="https://www.linkedin.com/in/rahulketanmodi/" target="_blank" className={styles.lets_connect_url}>Let's connect and collaborate!</a>
+            <a href="https://drive.google.com/drive/folders/1HsHqUtDeUYPvoh-mxkJ3WqMNJPm6aM3i?usp=drive_link" target="_blank" className={styles.lets_connect_url}>Resume</a>
+          </div>
         </div>
 
         {/* right Intro Block */}

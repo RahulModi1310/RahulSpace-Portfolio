@@ -1,29 +1,30 @@
 import React from "react";
 import Logo from "../../../assets/Logo.png";
+import { NavLink } from "react-router"
+import ThemeToggle from "../ThemeToggle";
 
 import styles from "./DesktopNavbar.module.css";
-import ThemeToggle from "../ThemeToggle";
 
 const DesktopNavbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
         {/* Left Nav block */}
-        <div className={styles.left_nav_block}>
+        <NavLink to="/" className={styles.left_nav_block}>
           <img src={Logo} alt="" />
           <span>
-            <a href="#About">Rahul's Space</a>
+            Rahul's Space
           </span>
-        </div>
+        </NavLink>
 
         {/* Right Nav block */}
         <div className={styles.right_nav_block}>
           <ul>
             <li>
-              <a href="#Projects">Projects</a>
+              <NavLink to="/projects">Projects</NavLink>
             </li>
             <li>
-              <a href="#Blogs">Blogs</a>
+              <NavLink to="/blogs">Blogs</NavLink>
             </li>
           </ul>
           <ThemeToggle />

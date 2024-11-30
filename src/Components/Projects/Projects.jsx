@@ -40,7 +40,7 @@ const ProjectItem = ({ proj }) => (
   </li>
 );
 
-const Projects = () => (
+const Projects = ({ listLength, readMore }) => (
   <SectionComp
     id="Projects"
     title={
@@ -48,9 +48,13 @@ const Projects = () => (
         Recent <span className={styles.project_title_span}> Projects </span>
       </>
     }
+    readMore={readMore}
+    url = {readMore ? readMore.url : ""}
+    blockName = {readMore ? readMore.blockName : ""}
   >
     <ul className={styles.projects_lists}>
-      {project_data.map((proj) => (
+      {console.log(listLength)}
+      {project_data.slice(0, listLength).map((proj) => (
         <ProjectItem key={proj.id} proj={proj} />
       ))}
     </ul>

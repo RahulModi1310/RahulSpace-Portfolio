@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./SectionComp.module.css";
+import ReadMore from "./ReadMore";
 
 const SectionComp = (props) => {
   return (
@@ -11,6 +12,7 @@ const SectionComp = (props) => {
           {`/>`}
         </h2>
         {props.children}
+        {props.readMore && <ReadMore url={props.url} blockName={props.blockName} />}
       </div>
     </>
   );
